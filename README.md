@@ -11,7 +11,7 @@
 - **验证方式**：执行 `jps` 命令确认 NameNode、DataNode、ResourceManager 等核心进程正常运行
 - **成果**：成功跑通 WordCount 示例，输出详细部署排错文档
 
-![Hadoop jps 进程验证](jps-report.png)
+![Hadoop jps 进程验证](jps-process.png)
 
 *上图：执行 jps 命令，五大核心进程均在运行*
 
@@ -23,7 +23,7 @@
 - **功能**：自动扫描 `/var/log/syslog`，按错误类型（内存不足、磁盘写满、连接超时、服务崩溃等）分类统计异常日志出现频次
 - **效果**：替代人工逐行查看，单次扫描覆盖万行级日志，配合 Crontab 实现每日自动巡检
 
-![日志巡检报告样例](jps-process.png)
+![日志巡检报告样例](jps-report.png)
 
 *上图：脚本运行输出示例，统计各类异常日志出现次数*
 
