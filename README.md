@@ -34,4 +34,4 @@
 - 所有脚本及排错笔记已归档至本仓库
 - 具备规范的测试过程可追溯能力
 
-**GitHub:** https://github.com/baozhenmao/data-analysis-projects
+**GitHub:** https://github.com/baozhenmao/hadoop-log-tools
